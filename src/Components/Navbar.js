@@ -5,8 +5,6 @@ import "./Navbar.css"
 
 
 function Navbar() {
-    // moment.locale(English(Singaopore));
-
     return (
         <>
             <div className="navbar navbar_mob">
