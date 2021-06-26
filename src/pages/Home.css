@@ -1,0 +1,126 @@
+.Card{
+    background-color: #353535;
+    border: .0625rem #141414;
+    border-radius: .25rem;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    color: #fff;
+    margin-bottom: 1.875rem;
+    width: max-content;
+    height: max-content;
+    margin: 20px 10px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card-componet{
+    padding: 10px;
+    margin: 20px 0;
+}
+.card_container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.btn{
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 200px;
+}
+.home_contant1{
+  padding: 10px;
+  display: flex;
+}
+
+.home_contant3{
+    display: flex;
+
+}
+.home{
+    margin-left: 40px;
+    width: 95%;
+    display: flex;
+  }
+  .home_contant2 {
+  display: flex;
+  }
+  .home-col1{
+    width: 73%;
+  }
+  .home-col2{
+    width: 23%;
+    background-color: #353535;
+    border: .0625rem #141414;
+    border-radius: .25rem;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    color: #fff;
+    margin-bottom: 1.875rem;
+    
+    margin: 20px 10px;
+    padding: 0 10px;
+  }
+  .application-container{
+    display: flex;
+    align-items: baseline;
+    margin: 10px;
+    border-bottom:.5px solid rgb(126, 123, 123) ;
+  }
+  .icon{
+    margin-left: 10px;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background-color: #615f5f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .application{
+    background-color: #4e4b4b;
+    border: .0625rem #141414;
+    border-radius: .25rem;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    color: #fff;
+    margin-bottom: 1.875rem;
+    width: max-content;
+    height: max-content;
+    margin: 20px 0;
+    padding: 20px 0;
+    padding-left: 10px;
+  }
+  .headline{
+    text-align: center;
+  }
+  @media only screen and (max-width:600px){
+    .home_mob{
+      display: block;
+      margin-left: 0px;
+    }
+    .home-col1_mob{
+      width: 100%;
+    }
+    .home_contant1_mob{
+      display: block;
+    }
+    .home_contant2_mob{
+      display: block;
+    }
+    .home_contant3_mob{
+      display: block;
+    }
+    .card-componet_mob{
+      text-align: center;
+    }
+    .Card_mob{
+      width: 100%;
+      display: block;
+    }
+    .card_container_mob{
+      justify-content: center;
+    }
+    .home-col2_mob{
+      width: 100%;
+    }
+  }

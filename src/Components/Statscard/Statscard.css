@@ -1,0 +1,82 @@
+.stats{
+    background-color: #353535;
+    border: .0625rem #141414;
+    border-radius: .25rem;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    color: #fff;
+    margin-bottom: 1.875rem;
+    /* width: max-content; */
+    height: 150px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.col2{
+    padding: 10px;
+    background-color: rgb(57, 134, 235);
+}
+ .fa-arrow-up{
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        padding: 2px;
+}
+ .fa-arrow-down{
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        padding: 2px;
+}
+.percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+
+}
+ .percent svg{
+position: relative;
+width: 150px;
+height: 150px;
+}
+.percent svg circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #000;
+    transform:translate(5px,5px);
+    stroke-dasharray: 314;
+    stroke-dashoffset: 314;
+    stroke-linecap: round;
+}
+ .percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+}
+.percent svg circle:nth-child(2){
+    /* stroke-dashoffset: calc(314 - (314 * 98) / 100); */
+    stroke: #03a9f4;
+}
+.percent .number{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#999;
+}
+.percent .number h2 span{
+font-size: 24px;
+}
+@media only screen and  (max-width:600px) {
+   .stats_mob{
+       width: 85%;
+       text-align: center;
+   }
+   .col1,.col3,.col2_mob{
+       width: 50%;
+   }   
+}

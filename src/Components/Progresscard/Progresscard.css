@@ -1,0 +1,38 @@
+.progresscard{
+    background-color: #353535;
+    border: .0625rem #141414;
+    border-radius: .25rem;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    color: #fff;
+    margin-bottom: 1.875rem;
+    width: max-content;
+    height: max-content;
+    margin: 20px 10px;
+    padding: 0 10px;
+}
+.progress_bar {
+	background-color: #444343;
+	border-radius: 2px;
+	position: relative;
+	margin: 15px 0;
+	height: 10px;
+	width: 250px;
+    
+}
+.progress-done-bar {
+	 background: linear-gradient(to left, #F2709C, #FF9472); 
+	 border-radius: 2px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0; 
+	transition: 1s ease 0.3s;
+}
+@media only screen and (max-width:600px) {
+	.progresscard_mob{
+		width: 95%;
+	}
+}

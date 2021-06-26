@@ -1,0 +1,25 @@
+.doughnut{
+    background-color: #353535;
+    border: .0625rem #141414;
+    border-radius: .25rem;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    color: #fff;
+    margin-bottom: 1.875rem;
+    width: max-content;
+    height: max-content;
+    margin: 20px 10px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.doughnut-chart{
+    height: 250px;
+    width: 228px;
+    padding: 20px;
+}
+@media only screen and (max-width:600px) {
+    .doughnut_mob{
+        width: 100%;
+    }
+}

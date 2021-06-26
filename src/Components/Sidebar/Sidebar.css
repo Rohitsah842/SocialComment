@@ -1,0 +1,33 @@
+.sidebar{
+    position: fixed;
+    width: 3%;
+    height: 100vh;
+    background: rgb(44, 42, 42);
+    /* border-right: 1px solid rgb(235, 232, 232); */
+    box-shadow:white ;
+}
+.sideContainer{
+    display: inline-grid;
+}
+.sidebarToggle{
+    position: fixed;
+    width: 3%;
+    height: 100vh;
+    background: rgb(44, 42, 42);
+}
+.fas{
+    margin: 10px 10px;
+}
+
+@media only screen and (max-width:600px) {
+   
+    .sidebarToggle{
+        position: fixed;
+        width: 200px;
+        height: 100vh;
+        background: rgb(92, 87, 87);
+        /* border-right: 1px solid rgb(235, 232, 232); */
+        box-shadow:white ;
+        z-index: 100;
+    }
+}
