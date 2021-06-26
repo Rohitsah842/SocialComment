@@ -33,7 +33,7 @@ function Doughnut_chart() {
     return (
         <>
             <div className="doughnut-chart">
-                <h5>Open Position By Department</h5>
+                <h5 style={{ margin: "0px" }}>Open Position By Department</h5>
                 <Doughnut data={chartdata} options={{
                     legend: {
                         display: false
