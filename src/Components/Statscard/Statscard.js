@@ -10,7 +10,7 @@ function Statscard(props) {
                 <div className={props.classname}>
                     <p>{props.name}</p>
                     <h5 style={{ marginBottom: "0px" }}>{props.total}</h5>
-                    <span style={{ color: 'blueviolet' }}><i className={props.class}>  </i></span><span style={{ color: 'blueviolet' }}>{props.incre}</span>
+                    <span style={{ color: 'blueviolet' }}><i className={props.className}>  </i></span><span style={{ color: 'blueviolet' }}>{props.incre}</span>
                 </div>
                 <div className={props.classname}>
                     <div className="percent">

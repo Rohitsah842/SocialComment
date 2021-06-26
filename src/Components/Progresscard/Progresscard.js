@@ -3,12 +3,12 @@ import './Progresscard.css'
 
 function Progresscard(props) {
     const [style, setstyle] = useState({});
+    const newStyle = {
+        opacity: 1,
+        width: `${props.value}%`,
+        backgroundColor: `${props.color}`
+    }
     setTimeout(() => {
-        const newStyle = {
-            opacity: 1,
-            width: `${props.value}%`,
-            backgroundColor: `${props.color}`
-        }
         setstyle(newStyle);
     }, 200);
     return (

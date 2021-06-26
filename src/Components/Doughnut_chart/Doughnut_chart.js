@@ -12,11 +12,11 @@ function Doughnut_chart() {
                 'Blue'
             ],
             datasets: [{
-                data: [10, 20, 30],
+                data: [45, 30, 25],
                 backgroundColor: [
-                    '#36a2eb',
-                    '#cc65fe',
-                    '#ffce56'
+                    '#ab0fab',
+                    '#dd3f39',
+                    '#00bfff'
                 ],
                 borderWidth: [
                     0,
@@ -33,6 +33,7 @@ function Doughnut_chart() {
     return (
         <>
             <div className="doughnut-chart">
+                <h5>Open Position By Department</h5>
                 <Doughnut data={chartdata} options={{
                     legend: {
                         display: false

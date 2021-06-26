@@ -96,6 +96,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="doughnut doughnut_mob">
+
                             <Doughnut_chart />
                         </div>
                     </div>

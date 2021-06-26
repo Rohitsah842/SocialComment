@@ -20,7 +20,6 @@
     
 }
 .progress-done-bar {
-	 background: linear-gradient(to left, #F2709C, #FF9472); 
 	 border-radius: 2px;
 	color: #fff;
 	display: flex;
